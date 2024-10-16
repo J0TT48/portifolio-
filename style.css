@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+  :root {
+
+    --cor-principal: #00BFFF;
+
+    --cor-secundaria: #C0C0C0;
+
+    --cor-destaque: #000080;
+
+}
+
+body {
+
+    font-family: 'Lora', serif;
+
+}
+
+h1, h2, h5 {
+
+    color: var(--cor-secundaria);
+
+    font-weight: 700;
+
+}
+
+footer a {
+
+    color: var(--cor-principal)
+
+}
+
+footer a:hover {
+
+    color: var(--cor-destaque);
+
+}
